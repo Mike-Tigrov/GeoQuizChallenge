@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">GeoQuizChallenge</string>
+
+    <string name="question_text">Канберра - столица Австралии.</string>
+    <string name="true_button">Правда</string>
+    <string name="false_button">Ложь</string>
+    <string name="correct_toast">Верный ответ!</string>
+    <string name="incorrect_toast">Подумайте ещё.</string>
+
+</resources>
