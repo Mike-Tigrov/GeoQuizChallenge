@@ -1,15 +1,19 @@
 <resources>
     <string name="app_name">GeoQuizChallenge</string>
 
-    <string name="question_australia">Канберра - столица Австралии</string>
-    <string name="question_oceans">Тихий океан больше чем Атлантический</string>
-    <string name="question_mideast">Суэцкий канал соединяет Красное море и Индийский океан</string>
-    <string name="question_africa">Река Нил берёт своё начало в Египте</string>
-    <string name="question_americas">Амазонка - самая длинная река в Америке</string>
-    <string name="question_asia">Озеро байкал замое большое и глубокое пресное озеро в мире</string>
-    <string name="true_button">Правда</string>
-    <string name="false_button">Ложь</string>
-    <string name="next_button">Следующий</string>
+    <string name="question_australia">1. Канберра - столица Австралии</string>
+    <string name="question_oceans">2. Тихий океан больше чем Атлантический</string>
+    <string name="question_mideast">3. Суэцкий канал соединяет Красное море и Индийский океан</string>
+    <string name="question_africa">4. Река Нил берёт своё начало в Египте</string>
+    <string name="question_americas">5. Амазонка - самая длинная река в Америке</string>
+    <string name="question_asia">6. Озеро байкал самое большое и глубокое пресное озеро в мире</string>
+
+    <string name="true_button">Это правда</string>
+    <string name="false_button">Это ложь</string>
+
+    <string name="next_button">Вперёд</string>
+    <string name="prev_button">Назад</string>
+
     <string name="correct_toast">Верный ответ!</string>
     <string name="incorrect_toast">Подумайте ещё.</string>
 

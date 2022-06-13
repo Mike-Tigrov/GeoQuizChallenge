@@ -22,7 +22,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="24dp"
-
+            android:textAlignment="center"
             android:textColor="@color/black"
             android:textSize="20sp" />
 
@@ -34,7 +34,7 @@
 
             <Button
                 android:id="@+id/true_button"
-                android:layout_width="110dp"
+                android:layout_width="160dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
 
@@ -44,7 +44,7 @@
 
             <Button
                 android:id="@+id/false_button"
-                android:layout_width="110dp"
+                android:layout_width="160dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
                 android:insetLeft="5dp"
@@ -53,13 +53,34 @@
 
         </LinearLayout>
 
-        <Button
-            android:id="@+id/next_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:insetLeft="5dp"
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="101dp"
+            android:gravity="center"
+            android:orientation="horizontal">
 
-            android:insetRight="5dp"
-            android:text="@string/next_button" />
+            <ImageButton
+                android:contentDescription="@string/prev_button"
+                android:id="@+id/prev_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:insetLeft="5dp"
+                android:insetRight="5dp"
+                android:padding="24dp"
+                android:src="@drawable/arrow_left"
+                 />
+
+            <ImageButton
+                android:contentDescription="@string/next_button"
+                android:id="@+id/next_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:insetLeft="5dp"
+                android:insetRight="5dp"
+                android:padding="24dp"
+                android:src="@drawable/arrow_right"
+                 />
+        </LinearLayout>
+
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
